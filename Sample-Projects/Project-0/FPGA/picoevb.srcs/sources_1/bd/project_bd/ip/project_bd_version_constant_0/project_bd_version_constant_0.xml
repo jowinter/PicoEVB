@@ -2,7 +2,7 @@
 <spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <spirit:vendor>xilinx.com</spirit:vendor>
   <spirit:library>customized_ip</spirit:library>
-  <spirit:name>project_bd_const_7021_0</spirit:name>
+  <spirit:name>project_bd_version_constant_0</spirit:name>
   <spirit:version>1.0</spirit:version>
   <spirit:model>
     <spirit:views>
@@ -22,7 +22,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7edabff1</spirit:value>
+            <spirit:value>9:350dc52d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -33,7 +33,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7edabff1</spirit:value>
+            <spirit:value>9:350dc52d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -42,18 +42,18 @@
         <spirit:displayName>Verilog Synthesis Wrapper</spirit:displayName>
         <spirit:envIdentifier>verilogSource:vivado.xilinx.com:synthesis.wrapper</spirit:envIdentifier>
         <spirit:language>verilog</spirit:language>
-        <spirit:modelName>project_bd_const_7021_0</spirit:modelName>
+        <spirit:modelName>project_bd_version_constant_0</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_verilogsynthesiswrapper_view_fileset</spirit:localName>
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jul 25 19:37:47 UTC 2021</spirit:value>
+            <spirit:value>Sun Jul 25 19:37:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:7edabff1</spirit:value>
+            <spirit:value>9:350dc52d</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -73,7 +73,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d20e5160</spirit:value>
+            <spirit:value>9:ddfe77bc</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -89,11 +89,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jul 25 19:37:47 UTC 2021</spirit:value>
+            <spirit:value>Sun Jul 25 19:37:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d20e5160</spirit:value>
+            <spirit:value>9:ddfe77bc</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -106,18 +106,18 @@
         <spirit:displayName>Verilog Simulation Wrapper</spirit:displayName>
         <spirit:envIdentifier>verilogSource:vivado.xilinx.com:simulation.wrapper</spirit:envIdentifier>
         <spirit:language>verilog</spirit:language>
-        <spirit:modelName>project_bd_const_7021_0</spirit:modelName>
+        <spirit:modelName>project_bd_version_constant_0</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_verilogsimulationwrapper_view_fileset</spirit:localName>
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Jul 25 19:37:47 UTC 2021</spirit:value>
+            <spirit:value>Sun Jul 25 19:37:48 UTC 2021</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d20e5160</spirit:value>
+            <spirit:value>9:ddfe77bc</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -126,7 +126,7 @@
         <spirit:displayName>SystemC Simulation Wrapper</spirit:displayName>
         <spirit:envIdentifier>systemCSource:vivado.xilinx.com:simulation.wrapper</spirit:envIdentifier>
         <spirit:language>systemc</spirit:language>
-        <spirit:modelName>project_bd_const_7021_0</spirit:modelName>
+        <spirit:modelName>project_bd_version_constant_0</spirit:modelName>
         <spirit:fileSetRef>
           <spirit:localName>xilinx_systemcsimulationwrapper_view_fileset</spirit:localName>
         </spirit:fileSetRef>
@@ -137,7 +137,7 @@
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:d20e5160</spirit:value>
+            <spirit:value>9:ddfe77bc</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>sim_type</spirit:name>
@@ -152,7 +152,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.CONST_WIDTH&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.CONST_WIDTH&apos;)) - 1)">31</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -169,12 +169,12 @@
       <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
         <spirit:name>CONST_WIDTH</spirit:name>
         <spirit:displayName>Const Width</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_WIDTH">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_WIDTH">32</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>CONST_VAL</spirit:name>
         <spirit:displayName>Const Val</spirit:displayName>
-        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_VAL" spirit:bitStringLength="16">0x7021</spirit:value>
+        <spirit:value spirit:format="bitString" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.CONST_VAL" spirit:bitStringLength="32">0x45564234</spirit:value>
       </spirit:modelParameter>
     </spirit:modelParameters>
   </spirit:model>
@@ -190,7 +190,7 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogsynthesiswrapper_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>synth/project_bd_const_7021_0.v</spirit:name>
+        <spirit:name>synth/project_bd_version_constant_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
@@ -215,7 +215,7 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogsimulationwrapper_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>sim/project_bd_const_7021_0.v</spirit:name>
+        <spirit:name>sim/project_bd_version_constant_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:logicalName>xil_defaultlib</spirit:logicalName>
       </spirit:file>
@@ -223,16 +223,16 @@
     <spirit:fileSet>
       <spirit:name>xilinx_systemcsimulationwrapper_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>sim/project_bd_const_7021_0.h</spirit:name>
+        <spirit:name>sim/project_bd_version_constant_0.h</spirit:name>
         <spirit:fileType>systemCSource</spirit:fileType>
         <spirit:isIncludeFile>true</spirit:isIncludeFile>
       </spirit:file>
       <spirit:file>
-        <spirit:name>sim/project_bd_const_7021_0.cpp</spirit:name>
+        <spirit:name>sim/project_bd_version_constant_0.cpp</spirit:name>
         <spirit:fileType>systemCSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>sim/project_bd_const_7021_0_stub.sv</spirit:name>
+        <spirit:name>sim/project_bd_version_constant_0_stub.sv</spirit:name>
         <spirit:fileType>systemVerilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -241,17 +241,17 @@
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">project_bd_const_7021_0</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="2">project_bd_version_constant_0</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CONST_WIDTH</spirit:name>
       <spirit:displayName>Const Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_WIDTH" spirit:order="3" spirit:minimum="1" spirit:maximum="4096" spirit:rangeType="long">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_WIDTH" spirit:order="3" spirit:minimum="1" spirit:maximum="4096" spirit:rangeType="long">32</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>CONST_VAL</spirit:name>
       <spirit:displayName>Const Val</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_VAL" spirit:order="4">0x7021</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.CONST_VAL" spirit:order="4">0x45564234</spirit:value>
     </spirit:parameter>
   </spirit:parameters>
   <spirit:vendorExtensions>

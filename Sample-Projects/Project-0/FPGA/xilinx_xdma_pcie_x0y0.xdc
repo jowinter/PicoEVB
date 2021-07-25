@@ -79,6 +79,7 @@ set_property PULLDOWN true [get_ports sys_rst_n]
 # SYS clock 100 MHz (input) signal. The sys_clk_p and sys_clk_n
 # signals are the PCI Express reference clock. 
 set_property PACKAGE_PIN B6 [get_ports sys_clk_p]
+set_property PACKAGE_PIN B5 [get_ports sys_clk_n]
 
 # PCIe x1 link
 set_property PACKAGE_PIN G4 [get_ports pcie_mgt_rxp]
