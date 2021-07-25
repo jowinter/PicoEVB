@@ -1,0 +1,5 @@
+# Ignore Vivado 2021.2 IP cache and generated output
+/picoevb.cache/
+/picoevb.ip_user_files/
+/picoevb.runs/
+/picoevb.srcs/sources_1/bd/project_bd/
